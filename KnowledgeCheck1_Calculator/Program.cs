@@ -57,12 +57,12 @@ namespace KnowledgeCheck1_Calculator
 
                     if (int.TryParse(multiplyNumber1, out int multiplyNumOne) && int.TryParse(multiplyNumber2, out int multiplyNumTwo))
                     {
-                        Console.WriteLine($"{multiplyNumber1} * {multiplyNumber2} =");
-                        Console.WriteLine(calculator.Multiply(multiplyNumOne, multiplyNumTwo));
+                        Console.Write($"{multiplyNumber1} * {multiplyNumber2} =");
+                        Console.Write(calculator.Multiply(multiplyNumOne, multiplyNumTwo));
                     }
                     else
                     {
-                        Console.WriteLine("One or more numbers is not an int");
+                        Console.WriteLine("One or more of the numbers is not an int");
                     }
                     break;
 
