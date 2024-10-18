@@ -69,7 +69,6 @@ namespace KnowledgeCheck1_Calculator
                         Console.WriteLine("One or more of the numbers is not an int");
                     }
                     break;
-                    break;
 
                 default:
                     Console.WriteLine("Unknown input");
